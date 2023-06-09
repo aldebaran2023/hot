@@ -1,0 +1,96 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+background: url(style90.png);
+background-size: cover;
+background-attachment: fixed;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.contenedor{
+width: 100%;
+padding: 20px;
+box-shadow: rgba(192,192,192,0.3);
+}
+
+.formulario{
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(10px);
+margin-top: 80px;
+padding: 10px;
+box-shadow: rgba(192,192,192,0.3);
+}
+
+h1{
+text-align: ;
+color: #000306;
+font-size: 25px;
+font-family: Segoe UI;
+font-weight: 600;
+}
+
+h3{
+
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"]{
+font-size: 15px;
+width: 100%;
+padding: 10px;
+border: none;
+}
+
+.input-contenedor{
+margin-bottom: 15px;
+border: 1px solid #aaa;
+}
+
+.icon{
+min-width: 50px;
+text-align: center;
+color: #999;
+}
+
+.button{
+border: none;
+width: 100%;
+color: white;
+font-size: 15px;
+background:  #0067b6;
+padding: 15px 20px;
+cursor: pointer;
+}
+
+.button:hover{
+background: cadetblue;
+}
+
+p{
+text-align: center;
+font-size: 9pt;
+color: #000306;
+}
+
+.link{
+text-decoration: none;
+color: #0067b6;
+font-weight: 600;
+}
+
+.link:hover{
+color: cadetblue;
+}
+
+@media(min-width:768px){
+.formulario{
+margin: auto;
+width: 500px;
+margin-top: 150px;
+border-radius: 2%;
+}
+}
